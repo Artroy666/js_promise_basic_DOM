@@ -5,7 +5,7 @@ const promise1 = new Promise((resolve) => {
 });
 
 const promise2 = new Promise((resolve, reject) => {
-  setTimeout(reject, 300);
+  setTimeout(reject, 3000);
 });
 
 function successHadler() {
